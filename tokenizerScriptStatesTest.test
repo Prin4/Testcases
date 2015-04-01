@@ -1,0 +1,9 @@
+{"tests": [
+
+{"description":"Commented close tag in RCDATA or RAWTEXT",
+"initialStates":["Script data state"],
+"lastStartTag":"script",
+"input":"</script>",
+"output":[["EndTag", "scrpt"]]},
+
+]}
