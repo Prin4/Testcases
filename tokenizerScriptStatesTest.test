@@ -27,7 +27,7 @@
 {"description":"Special char",
 "initialStates":["Script data state"],
 "lastStartTag":"script",
-"input":"</*>",
-"output":[["Character","<"],["Character","\"],["Character","*"]]},
+"input":"</$>",
+"output":[["Character","<"],["Character","\"],["Character","$"]]},
 
 ]}
