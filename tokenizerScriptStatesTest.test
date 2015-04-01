@@ -27,8 +27,8 @@
 {"description":"special char",
 "initialStates":["Script data state"],
 "lastStartTag":"script",
-"input":"</sx&>",
-"output":[["Character", "sx&"]]},
+"input":"</s&>",
+"output":[["Character", "<"],["Character", "\"],["Character", "s"],["Character", "&"]]},
 
 {"description":"comment in srcript",
 "initialStates":["Script data state"],
