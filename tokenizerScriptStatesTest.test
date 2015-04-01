@@ -36,6 +36,12 @@
 "input":"<!->",
 "output":[["Character", "<"],["Character", "!"],["Character", "-"],["Character",">"]]},
 
+{"description":"comment in srcript",
+"initialStates":["Script data state"],
+"lastStartTag":"script",
+"input":"<!---",
+"output":[["Character", "<"],["Character", "!"],["Character", "---"]]},
+
 
 
 
