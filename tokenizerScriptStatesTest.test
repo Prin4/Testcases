@@ -24,15 +24,11 @@
 "input":"</Script>",
 "output":[["EndTag", "script"]]},
 
-{"description":"Entity with trailing semicolon (2)",
-"input":"I'm &notin;",
-"output":[["Character","I'm \u2209"]]},
-
-{"description":"Uppercase end tag </script>",
+{"description":"special char",
 "initialStates":["Script data state"],
 "lastStartTag":"script",
 "input":"</sx&>",
-"output":[["EndTag", "script"]]},
+"output":[["Character", "sx&"]]},
 
 
 
