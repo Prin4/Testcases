@@ -1,9 +1,15 @@
 {"tests": [
 
-{"description":"Commented close tag in RCDATA or RAWTEXT",
+{"description":"end tag </script>",
 "initialStates":["Script data state"],
 "lastStartTag":"script",
 "input":"</script>",
 "output":[["EndTag", "script"]]},
+
+{"description":"EOF",
+"initialStates":["Script data state"],
+"lastStartTag":"script",
+"input":"",
+"output":[["Character", "EOF"]]},
 
 ]}
