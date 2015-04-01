@@ -24,11 +24,9 @@
 "input":"</Script>",
 "output":[["EndTag", "script"]]},
 
-{"description":"Special char",
-"initialStates":["Script data state"],
-"lastStartTag":"script",
-"input":"&&",
-"output":[["Character","<"],["Character","\"],["Character","&&"]]},
+{"description":"Entity with trailing semicolon (2)",
+"input":"I'm &notin;",
+"output":[["Character","I'm \u2209"]]},
 
 
 
