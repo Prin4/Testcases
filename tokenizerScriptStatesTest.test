@@ -36,7 +36,7 @@
 "input":"<!->",
 "output":[["Character", "<"],["Character", "!"],["Character", "-"],["Character",">"]]},
 
-{"description":"comment in srcript",
+{"description":"Go to escaped state",
 "initialStates":["Script data state"],
 "lastStartTag":"script",
 "input":"<!---",
