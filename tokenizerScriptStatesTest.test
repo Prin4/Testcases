@@ -4,6 +4,6 @@
 "initialStates":["Script data state"],
 "lastStartTag":"script",
 "input":"</script>",
-"output":[["EndTag", "scrpt"]]},
+"output":[["EndTag", "script"]]},
 
 ]}
