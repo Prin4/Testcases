@@ -12,6 +12,14 @@
 "input":"",
 "output":[]},
 
+{"description":"Pure characters",
+"initialStates":["Script data state"],
+"lastStartTag":"script",
+"input":"abcd",
+"output":[["Character","abcd"]]},
+
+
+
 
 
 
