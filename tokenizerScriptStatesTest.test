@@ -42,6 +42,18 @@
 "input":"<!---",
 "output":[["Character", "<"],["Character", "!"],["Character", "---"],"ParseError"]},
 
+{"description":"Go to escaped state",
+"initialStates":["Script data state"],
+"lastStartTag":"script",
+"input":"<!---",
+"output":[["Character", "<"],["Character", "!"],["Character", "---"],"ParseError"]},
+
+{"description":"Go to escaped script state",
+"initialStates":["Script data state"],
+"lastStartTag":"script",
+"input":"<!--</Ab>",
+"output":[["Character", "<!--</Ab>"]]},
+
 
 
 
