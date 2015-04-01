@@ -12,17 +12,7 @@
 "input":"",
 "output":[]},
 
-{"description":"Pure characters",
-"initialStates":["Script data state"],
-"lastStartTag":"script",
-"input":"abcd",
-"output":[["Character","abcd"]]},
 
-{"description":"Uppercase end tag </script>",
-"initialStates":["Script data state"],
-"lastStartTag":"script",
-"input":"</Script>",
-"output":[["EndTag", "script"]]},
 
 
 
