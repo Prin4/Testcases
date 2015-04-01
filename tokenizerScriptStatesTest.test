@@ -34,7 +34,7 @@
 "initialStates":["Script data state"],
 "lastStartTag":"script",
 "input":"<!->",
-"output":[["Character", "-"]]},
+"output":[["Character", "<"],["Character", "!"],["Character", "-"]]},
 
 
 
