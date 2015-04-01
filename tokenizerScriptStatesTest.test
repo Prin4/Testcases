@@ -30,6 +30,12 @@
 "input":"</sx&>",
 "output":[["Character", "sx&"]]},
 
+{"description":"comment in srcript",
+"initialStates":["Script data state"],
+"lastStartTag":"script",
+"input":"<!->",
+"output":[["Character", "-"]]},
+
 
 
 
