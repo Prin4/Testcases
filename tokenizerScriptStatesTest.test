@@ -52,7 +52,7 @@
 "initialStates":["Script data state"],
 "lastStartTag":"script",
 "input":"<!--</Ab>",
-"output":[["Character", "<!--</Ab>"]]},
+"output":[["Character", "<!--</ab>"]]},
 
 
 
